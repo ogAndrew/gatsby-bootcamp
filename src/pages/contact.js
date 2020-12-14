@@ -1,11 +1,9 @@
 import React from "react"
-import Footer from "../components/footer"
-import Header from "../components/header"
+import Layout from "../components/layout"
 
 const ContactPage = () => {
   return (
-    <div>
-      <Header />
+    <Layout>
       <h2>Let's get in touch</h2>
       <p>
         The best way to reach me is
@@ -14,8 +12,7 @@ const ContactPage = () => {
         </a>
         on Twitter!
       </p>
-      <Footer />
-    </div>
+    </Layout>
   )
 }
 
